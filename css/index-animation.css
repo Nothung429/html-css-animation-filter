@@ -17,3 +17,31 @@
     transition: opacity 3s;
     opacity: 0;
 }
+
+.ex-5-square:hover {
+    transition: width 3s, height 3s;
+    height: 100px;
+    width: 100px;
+}
+.ex-5-square:active {
+    transition: width 3s, height 3s;
+    height: 30px;
+    width: 30px;
+}
+
+.ex-6-img:hover {
+    transition: 1s;
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    transition: 3s;
+    filter: opacity(60%) sepia(100%);
+}
+
+.ex-8-img:hover {
+    transition: 3s;
+    filter: blur(5px) saturate(75%);
+    border-radius: 50%;
+}
+
