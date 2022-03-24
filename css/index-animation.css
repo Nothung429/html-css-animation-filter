@@ -1,3 +1,4 @@
+/*------ inizio esercizi ------*/
 .ex-1-square:hover {
     transition: background-color 3s;
     background-color: red;
@@ -44,4 +45,30 @@
     filter: blur(5px) saturate(75%);
     border-radius: 50%;
 }
+
+.ex-9-img:hover {
+    transition: 3s;
+    filter: brightness(80%) saturate(60%);
+    border-radius: 50%;
+    width: 600px;
+}
+
+.ex-10-icon {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ex-11-icon:hover {
+    animation: spin75 3s linear;
+}
+@keyframes spin75 {
+    0% { transform: rotate(0deg); }
+    75% { transform: rotate(270deg);}
+    100% { transform: rotate(0deg); }
+}
+
+/*------ inizio esercizi bonus ------*/
 
