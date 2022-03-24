@@ -71,4 +71,28 @@
 }
 
 /*------ inizio esercizi bonus ------*/
+.ex-12-button:hover > {
+    animation: translatebutton12 3s linear infinite;
+}
+@keyframes translatebutton12 {
+    0% { transform: translate(0%); }
+    50% { transform: translate(75%); }
+    100% { transform: translate(0%); }
+}
+.ex-12-top-white:hover {
+    animation: translatetopborder12 3s linear infinite;
+}
+@keyframes translatetopborder12 {
+    0% { transform: translate(0%); }
+    50% { transform: translate(75%); }
+    100% { transform: translate(0%); }
+}
+.ex-12-bottom-white:hover {
+    animation: translatebottomborder12 3s linear infinite;
+}
+@keyframes translatebottomborder12 {
+    0% { transform: translate(0%); }
+    50% { transform: translate(-75%); }
+    100% { transform: translate(0%); }
+}
 
