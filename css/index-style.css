@@ -57,6 +57,7 @@
 .ex-4-square {
     width: 100px;
     height: 100px;
+    opacity: 1;
     background: red;
 }
 .ex-5-square {
