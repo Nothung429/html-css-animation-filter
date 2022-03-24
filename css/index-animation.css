@@ -72,19 +72,44 @@
 
 /*------ inizio esercizi bonus ------*/
 .ex-12-button:hover .ex-12-top-white {
-    animation: translatetopborder12 3s linear infinite;
+    animation: translatetopborder12 1.5s linear infinite;
 }
 @keyframes translatetopborder12 {
-    0% { transform: translate(0%); }
-    50% { transform: translate(100%); }
-    100% { transform: translate(0%); }
+    0% { transform: translate(-25%); }
+    25% { transform: translate(75%); }
+    50% { transform: translate(150%); }
+    75% { transform: translate(75%); }
+    100% { transform: translate(-25%); }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: translatebottomborder12 3s linear infinite;
+    animation: translatebottomborder12 1.5s linear infinite;
 }
 @keyframes translatebottomborder12 {
-    0% { transform: translate(0%); }
-    50% { transform: translate(-100%); }
-    100% { transform: translate(0%); }
+    0% { transform: translate(25%); }
+    25% { transform: translate(-75%); }
+    50% { transform: translate(-150%); }
+    75% { transform: translate(-75%); }
+    100% { transform: translate(25%); }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: movetopborder13 2.5s linear infinite;
+}
+@keyframes movetopborder13 {
+    0%      { top: -10px;     left: -30px; }
+    25%     { top: -10px;     left: 150px; }
+    50%     { top: 50px;      left: 150px; }
+    75%     { top: 50px;      left: -30px; }
+    100%    { top: -10px;     left: -30px; }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: movebottomborder13 2.5s linear infinite;
+}
+@keyframes movebottomborder13 {
+    0%      { bottom: -10px;     right: -30px; }
+    25%     { bottom: -10px;     right: 150px; }
+    50%     { bottom: 50px;      right: 150px; }
+    75%     { bottom: 50px;      right: -30px; }
+    100%    { bottom: -10px;     right: -30px; }
 }
 
